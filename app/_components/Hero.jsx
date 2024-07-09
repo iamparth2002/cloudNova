@@ -24,7 +24,7 @@ const Hero = () => {
           onClick={() => router.push('/upload')}>
             Get Started <BsArrowUpRightCircleFill color="white" />
           </button>
-          <button>Sign up</button>
+          <button onClick={()=>router.push('/sign-up')}>Sign up</button>
         </div>
       </div>
 
